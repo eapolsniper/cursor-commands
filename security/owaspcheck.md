@@ -29,5 +29,6 @@ In addition to the detailed output, create a summary table with very brief sever
 
 Save output to CURSOR_OWASP_CHECK.md Overwrite the file if it is already present.
 
-Check if the repository is public or private. If the repository is public, add the CURSOR_OWASP_CHECK.md file to the gitignore so it does not get discosed.
+Check if the repository is public or private. If the repository is public, add the CURSOR_OWASP_CHECK.md file to the gitignore so it does not get discosed. If you can't tell, default to adding the file to gitignore.
+
 This command will be available in chat with /owaspcheck
