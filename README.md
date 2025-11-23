@@ -9,7 +9,7 @@ Performs a comprehensive security review of the selected project based on the OW
 
 **Output:** `CURSOR_OWASP_CHECK.md`
 
-### `/checkdepsglobal`
+### `/checkdeps`
 Conducts a supply chain risk assessment of all project dependencies. Analyzes direct and transitive dependencies for maintenance health, developer concentration, typosquatting risks, and geopolitical concerns. Focuses on qualitative risks beyond standard CVEs and flags high/critical risk packages requiring immediate security review.
 
 **Output:** `DEPENDENCY_RISK_ASSESSMENT.md`
