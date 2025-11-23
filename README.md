@@ -13,3 +13,13 @@ Performs a comprehensive security review of the selected project based on the OW
 Conducts a supply chain risk assessment of all project dependencies. Analyzes direct and transitive dependencies for maintenance health, developer concentration, typosquatting risks, and geopolitical concerns. Focuses on qualitative risks beyond standard CVEs and flags high/critical risk packages requiring immediate security review.
 
 **Output:** `DEPENDENCY_RISK_ASSESSMENT.md`
+
+### `/jwtcheck`
+Performs a comprehensive security review of the project's authentication system with a focus on JSON Web Token (JWT) implementation. Evaluates compliance against RFC 8725 JWT best practices, OWASP JWT Cheat Sheet, OIDC and OAuth 2.0 specifications, and NIST recommendations.
+
+**Output:** `JWT_RISK_ASSESSMENT.md`
+
+### `/quantumcryptocheck`
+Reviews all cryptographic algorithms used in the project and evaluates their post-quantum cryptography readiness. Identifies all cryptography usage, checks for available post-quantum algorithm options based on latest NIST recommendations, and recommends appropriate post-quantum algorithms or alternative packages when needed.
+
+**Output:** `QUANTUM_CRYPTO_CHECK.md`

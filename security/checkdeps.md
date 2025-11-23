@@ -1,9 +1,6 @@
 # checkdeps
 
-Write your command content here.
-# checkdeps
 
-Write your command content here.
 
 You will run a read-only analysis of dependencies. You will not create any files or scripts. You will only conduct analysis through model data or connections you can do to live data sources.
 
@@ -35,6 +32,4 @@ State that the user must perform an immediate manual security review for each li
 
 create or overwite a file called DEPENDENCY_RISK_ASSESSMENT.md with the report in the root of the project.
 
-Check if the repository is public or private. If the repository is public, add the CDEPENDENCY_RISK_ASSESSMENT.md file to the gitignore so it does not get discosed. If you can't tell, default to adding the file to gitignore.
-
-This command will be available in chat with /checkdeps
+Check if the report file is listed in gitignore. If not, check if the repository is public or private. If the repository is public, add the DEPENDENCY_RISK_ASSESSMENT.md file to the gitignore so it does not get disclosed. If you can't tell, default to adding the file to gitignore.

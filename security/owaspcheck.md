@@ -1,6 +1,6 @@
 # owaspcheck
 
-Write your command content here.
+
 **CONTEXT:**
 You are an expert Application Security Engineer. A developer wants you to review the selected project and is requesting a security review focused on severe vulnerabilities. Provide brief context on if these vulnerabilities are likely exploitable, or if they are security enhancements.
 
@@ -29,6 +29,5 @@ In addition to the detailed output, create a summary table with very brief sever
 
 Save output to CURSOR_OWASP_CHECK.md Overwrite the file if it is already present.
 
-Check if the repository is public or private. If the repository is public, add the CURSOR_OWASP_CHECK.md file to the gitignore so it does not get discosed. If you can't tell, default to adding the file to gitignore.
+Check if the report file is listed in gitignore. If not, check if the repository is public or private. If the repository is public, add the CURSOR_OWASP_CHECK.md file to the gitignore so it does not get disclosed. If you can't tell, default to adding the file to gitignore.
 
-This command will be available in chat with /owaspcheck
